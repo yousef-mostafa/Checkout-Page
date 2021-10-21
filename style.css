@@ -1,0 +1,106 @@
+*{box-sizing: border-box;}
+.continer{
+    width: 360px;
+    margin: auto;
+}
+
+.card{
+    width: 360px;
+    height: 150px;
+    border:2px solid #38C337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px 10px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.card [type='radio']{
+    height: min-content;
+}
+
+.card img{
+    width: 75px;
+    height: 75px;
+}
+
+.card .offer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.card .offer p{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .offer p span{
+    display:inline ;
+}
+
+.card .offer .num-statu{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card .offer .num-statu input{
+    width: 50px;
+    margin-left: 20px;
+}
+
+/* start info */
+
+.info{
+    background-color: #f2f2f2;
+    width: 360px;
+    margin: 20px;
+    text-align: right;
+    padding: 15px;
+    color: #333333;
+}
+
+.info table{
+    border: none;
+    text-align: right;
+    font-family: "Almarai", Sans-serif;
+}
+
+.info table th {
+    border-bottom:1px dashed #cccccc ;
+    padding: 15px 0px;
+}
+
+.info p{
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+}
+
+.info button{
+    text-align: center;
+    margin: 15px 32px;
+    background-color: #61ce70;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.info button:hover{
+    background-color: #047714;
+}
+
+/* @media screan 360px {
+    .continer{
+        width: 360ppx;
+    }
+} */
